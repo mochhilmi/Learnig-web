@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- icon bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/pelajaran_soal.css">
+    <!-- Tittle -->
+    <title>Pelajaran Soal</title>
+  </head>
+
+  <body>
+      <div class="container">
+          <div class="main">
+            <section class="halaman">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="kiri">
+                            <div class="d-flex bd-highlight mb-3">
+                                <div class="bd-highlight">
+                                    <div class="label">
+                                        <a href=""><i class="fas fa-arrow-left"></i></a>
+                                    </div>
+                                </div>
+                                <div class="bd-highlight">
+                                    <p class="judul">Belajar Dasar Pemrograman Mobile dengan Flutter SDK oleh Google</p>
+                                    <p class="sub">Progress di update terakhir 1 hari yang lalu</p>
+                                </div> 
+                            </div>
+
+                            <div class="konten">
+                                <h1>Quiz 1 : Seputar Flutter Framework</h1> <br>
+                                <p>Pertanyaan 1 : Tahun berapa Flutter Framework dibuat?</p>
+                            </div>
+                            <div class="pilihan">
+                              <div class="row gy-5">
+                                <div class="col-6">   
+                                  <div class="p-3 border">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="check1">
+                                      <label class="form-check-label" for="flexchechboxDefault1">
+                                        2018
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="p-3 border">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                      <label class="form-check-label" for="flexchechboxDefault2">
+                                        2022
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="p-3 border">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                      <label class="form-check-label" for="flexchechboxDefault3">
+                                        1998
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="p-3 border">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                      <label class="form-check-label" for="flexchechboxDefault2">
+                                        1945
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="kanan">
+                            <div class="card">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 flex-fill bd-highlight">
+                                        <div class="progress my-2">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-center mb-0" style="font-size: 14px;"><b>11</b> dari <b>23 pelajaran</b> sudah selesai</p>
+                                    </div>
+                                        <div class="label-icon my-2 mx-1">
+                                            <i class="fas fa-chart-line align-self-center"></i>
+                                        </div>
+                                  </div>
+                            </div>
+
+                            <div class="button mt-4">
+                                <button type="button" class="btn btn-theme1" data-bs-toggle="modal" data-bs-target="#myModal">
+                                    <i class="bi bi-book-half"></i> Panduan
+                                </button>
+                                <!-- --------------------------------------------------------------------------------------- -->
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal">
+                                  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                
+                                      <!-- Modal Header -->
+                                      <div class="modal-header">
+                                        <h4 class="modal-title">Panduan</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                      </div>
+                                
+                                      <!-- Modal body -->
+                                      <div class="modal-body">
+                                        <ul>
+                                          <li>Setiap Training memiliki 3 Menu, yaitu Materi dan Ujian, Sertifikat dan Panduan</li>
+                                          <li>Menu Materi dan Ujian adalah menu untuk mempelajari Materi Training dan Ujian Training untuk mendapatkan Sertifikat.</li>
+                                          <li>Setiap Materi memiliki beberapa Bab dan ada juga yang memiliki Sub Bab.</li>
+                                          <li>Ujian dapat berada pada setiap Bab Materi (Berada pada setiap bawah Bab Materi) atau dapat berada di akhir Materi (Berada pada bawah sendiri Materi)</li>
+                                          <li>Menu Sertifikat adalah menu untuk melihat dan mengunduh (download) Sertifikat dan melihat berapa nilai hasil ujian yang sudah dilakukan. Pada Menu ini dapat diketahui berapa kali dilakukan Pengulangan Ujian dan Nilai setiap Ujian</li>
+                                          <li>Menu Panduan adalah menu untuk melihat bagaimana Panduan dalam melakukan Training dan Ujian.</li>
+                                          <li>Pelajari setiap Materi, Bab Materi dan Sub Bab Materi yang ada.</li>
+                                          <li>Lakukan cheklist (klik “centang” pada kotak didepan Bab atau Sub Bab Materi), Ketika Materi sudah selesai di pelajari.</li>
+                                          <li>Ikuti Ujian (Exam), ketika Materi sudah selesai di pelajari. Anda dinyatakan lulus jika nilai Ujian diatas 70%. Jika nilai Anda kurang dari 70%, maka pelajari lagi Materi dan ulangi Ujian.</li>
+                                          <li>Sertifikat dapat di unduh (download) jika Anda :</li>
+                                          <li>Selesai mempelajari semua materi, melakukan checklist pada setiap Bab atau Sub Bab Materi dan</li>
+                                          <li>Lulus exam (ujian) dengan nilai diatas 70%</li>
+                                          <li>Nama Sertifikat adalah Nama yang tertulis pada Profil. Mohon mengisi nama pada Profil sesuai dengan nama yang diinginkan pada Sertifikat.</li>
+                                          <li>Untuk melakukan verifikasi / cek asli atau tidak Sertifikat yang Anda dapatkan. Anda dapat melakukan cek di delta.training/verification (kemudian masukkan nomor Sertifikat) atau scan barcode yang ada pada Sertifikat.</li>
+                                        </ul>
+                                      </div>
+                                
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">SAYA MENGERTI</button>
+                                      </div>
+                                
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- --------------------------------------------------------------------------------------- -->
+                  
+                                <button type="button" class="btn btn-theme2" data-bs-toggle="modal" data-bs-target="#myModal1">
+                                    <i class="bi bi-award"></i> Sertifikat
+                                </button>
+                  
+                                <!-- --------------------------------------------------------------------------------------- -->
+                                <!-- The Modal -->
+                                <div class="modal fade" id="myModal1">
+                                  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                
+                                      <!-- Modal Header -->
+                                      <div class="modal-header">
+                                        <h4 class="modal-title">Sertifikat</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                      </div>
+                                
+                                      <!-- Modal body -->
+                                      <div class="modal-body">
+                                        <img src="images/party.png" style="width: 228px;" alt=""> <br><br>
+                                        <p class="fs-4"><small class="text-muted">Selamat, kamu berhasil menyelesaikan </small><b>“Belajar Dasar Pemrograman Mobile dengan Flutter & Dart”</b></p> <br>
+                                        <p>Karena kamu sudah berhasil menyelesaikan training <b>“Belajar Dasar Pemrograman Mobile dengan Flutter & Dart”</b>
+                                          maka kamu berhak untuk menerima sertifikat dari Google Academy melalui Delta Training. </p>
+                                        <p>Jenis sertifikat yang kamu terima adalah <b>“Certificate of Completion”.</b> Kamu bisa mengunduhnya dengan menekan tombol unduh dibawah ini</p>
+                                        <br>
+                                        <button type="button" class="btn btn-sertifikat" data-bs-toggle="button" autocomplete="off">
+                                          <i class="fas fa-download me-2"></i>
+                                          Unduh Sertifikat
+                                      </button>
+                                      <br><br>
+                                      </div>
+                                
+                                
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- --------------------------------------------------------------------------------------- -->
+                            </div>
+                  
+                              <div class="card mt-5">
+                                <div class="card-header" style="height: 50px;">
+                                  <div class="d-flex bd-highlight align-items-center">
+                                    <div class="bd-highlight mt-2 align-self-center">
+                                      <p>Konten Training</p>
+                                    </div>
+                                    <div class="ms-auto bd-highlight mb-2 align-self-center">
+                                      <div class="riwayat">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Riwayat Ujian
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Riwayat Ujian</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body1">
+                                                    <!-- I S I -->
+                                                    <div class="d-flex bd-highlight mb-3">
+                                                        <div class="p-2 bd-highlight">
+                                                            <p class="quis">Quiz 1 : Seputar Flutter</p>
+                                                        </div>
+                                                        <div class="ms-auto p-2 bd-highlight text-muted fs-6">
+                                                            Jumlah soal : 10
+                                                        </div>
+                                                    </div>
+              
+                                                    <div class="d-flex bd-highlight mb-3">
+                                                        <div class="p-2 bd-highlight">
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>#1</li>
+                                                                    <li>Soal yang berhasil dijawab benar : 5</li>
+                                                                    <li>Nilai Ujian 50</li>
+                                                                </ul>    
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-auto p-2 bd-highlight align-self-center">
+                                                            <button type="button" class="btn btn-outline-danger">BELUM BERHASIL</button>
+                                                        </div>
+                                                    </div>
+              
+                                                    <div class="d-flex bd-highlight mb-3">
+                                                        <div class="p-2 bd-highlight">
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>#1</li>
+                                                                    <li>Soal yang berhasil dijawab benar : 5</li>
+                                                                    <li>Nilai Ujian 50</li>
+                                                                </ul>    
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-auto p-2 bd-highlight align-self-center">
+                                                            <button type="button" class="btn btn-outline-danger">BELUM BERHASIL</button>
+                                                        </div>
+                                                    </div>
+              
+              
+                                                    <div class="d-flex bd-highlight mb-3">
+                                                        <div class="p-2 bd-highlight">
+                                                          <div class="vr"></div>
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>#1</li>
+                                                                    <li>Soal yang berhasil dijawab benar : 5</li>
+                                                                    <li>Nilai Ujian 50</li>
+                                                                </ul>    
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-auto p-2 bd-highlight align-self-center">
+                                                            <button type="button" class="btn btn-outline-success">BERHASIL</button>
+                                                        </div>
+                                                    </div>
+              
+                                                    <div class="d-flex bd-highlight mb-3">
+                                                        <div class="p-2 bd-highlight">
+                                                            <p class="quis">Quiz 2 : Soal Logika dengan Dart</p>
+                                                        </div>
+                                                        <div class="ms-auto p-2 bd-highlight text-muted fs-6">
+                                                            Jumlah soal : 5
+                                                        </div>
+                                                    </div>
+              
+                                                    <div class="d-flex bd-highlight mb-3">
+                                                        <div class="p-2 bd-highlight">
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>#1</li>
+                                                                    <li>Soal yang berhasil dijawab benar : 5</li>
+                                                                    <li>Nilai Ujian 50</li>
+                                                                </ul>    
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-auto p-2 bd-highlight align-self-center">
+                                                            <button type="button" class="btn btn-outline-danger">Belum Berhasil</button>
+                                                        </div>
+                                                    </div>
+              
+              
+                                                    <!-- A K H I R -->
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+              
+                                    </div>
+                                  </div>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          Introduction to Cross Platform Development with Flutter & Dart
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          <ul>
+                                            <li>
+                                              <div class="d-flex bd-highlight align-items-center">
+                                                <div class="bd-highlight mt-2 align-self-center">
+                                                  <p style="font-size: 13px;">Apa itu Flutter Framework ? <br>
+                                                    <small class="text-muted">Video berdurasi  02:13</small></p>
+                                                </div>
+                                                <div class="ms-auto bd-highlight mb-2 align-self-center">
+                                                  <div>
+                                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+              
+                                            <li>
+                                              <div class="d-flex bd-highlight align-items-center">
+                                                <div class="bd-highlight mt-2 align-self-center">
+                                                  <p style="font-size: 13px;">Perkenalan Tentang Cross-Platform Mobile Development<br>
+                                                  <small class="text-muted">Lampiran</small></p>
+                                                </div>
+                                                <div class="ms-auto bd-highlight mb-2 align-self-center">
+                                                  <div>
+                                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+              
+                                            <li>
+                                              <div class="d-flex bd-highlight align-items-center">
+                                                <div class="bd-highlight mt-2 align-self-center">
+                                                  <p style="font-size: 13px;">Unduh dan installasi Flutter<br>
+                                                    <small class="text-muted">Lampiran</small></p>
+                                                </div>
+                                                <div class="ms-auto bd-highlight mb-2 align-self-center">
+                                                  <div>
+                                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+              
+                                            <li>
+                                              <div class="d-flex bd-highlight align-items-center">
+                                                <div class="bd-highlight mt-2 align-self-center">
+                                                  <p style="font-size: 13px;">Quiz 1 : Seputar Flutter Framework<br>
+                                                    <small class="text-muted">Soal Pilihan Ganda</small></p>
+                                                </div>
+                                                <div class="ms-auto bd-highlight mb-2 align-self-center">
+                                                  <div>
+                                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          How To Create an App From Scratch
+                                        </button>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          Deploying Your App to Physical Device
+                                        </button>
+                                      </h2>
+                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </ul>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          </div>
+
+          <!-- F O O T E R -->
+          <div class="footer">
+            <div class="row">
+             <div class="col-sm-4 item">
+               <h3>Delta Training</h3>
+               <p>Platform pelatihan online dan offline pertama di Indonesia</p>
+               <div class="item social">
+                 <a href="#"><i class="fab fa-facebook"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-tiktok"></i></a>
+               </div>
+             </div>
+ 
+             <div class="col-sm-4 item">
+               <ul>
+               <li><a href="">Verifikasi Sertifikat</a></li>
+               <li><a href="">Tentang</a></li>
+               <li><a href="">Kebijakan dan Privasi</a></li>
+               <li><a href="">Syarat & Ketentuan</a></li>
+               </ul>
+             </div> 
+ 
+             <div class="col-sm-4 item">
+               <p class="get">Get in touch!</p>
+               <p class="pertanyaan">Pertanyaan atau umpan <br>balik?</p>
+               <a href="#" class="text-decoration-none">cs@delta.training</a>
+             </div>
+ 
+            </div>
+          </div>
+      </div>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
