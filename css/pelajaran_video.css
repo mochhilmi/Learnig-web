@@ -5,10 +5,6 @@ body {
 }
 
 /* Kiri */
-.kiri {
-    border: 2px solid red;
-}
-
 .label {
     width: 62px;
     height: 91px;
@@ -58,7 +54,6 @@ body {
 
 .kanan {
     margin-top: 20px;
-    border: 2px solid blue;
 }
 
 
