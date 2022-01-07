@@ -13,45 +13,51 @@
     <!-- Style css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Tittle -->
-    <title>Lading page</title>
+    <title>DELTA SINERGI PRIMA</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-main navbar-expand-xl bg-white py-0 fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/logo delta.png" alt="log"></a>
-        <div class="wrap-content">
-          <div class="label">
-            <i class="fas fa-border-all"></i>
-          </div>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+
+        <!-- show when > xl -->
+        <a class="navbar-brand d-none d-xl-inline" href="#" role="button">
+          <img src="images/logo delta.png" alt="DELTA SINERGI PRIMA" width="123">
+        </a>
+        <a class="highlight-menu-home text-decoration-none d-none d-xl-inline" href="#" role="button">
+          <i class="fas fa-border-all"></i>
+        </a>
+
+        <!-- show when < xl -->
+        <a class="navbar-brand d-inline d-xl-none" href="#" role="button">
+          <img src="images/logo delta.png" alt="DELTA SINERGI PRIMA" width="123">
+        </a>
+
+        <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="images/toggle.png" alt="Toggle" width="28">
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <form action="#" class="d-flex my-4 my-lg-0">
-            <div class="form"> 
-              <i class="fa fa-search"></i> 
-              <input type="text" class="form-control" placeholder="kursus network security coding    " aria-label="Search"> 
-            </div>
-          </form>
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link align-self-center" href="#">Mengajar di Delta Training</a>
-            <div class="wrap-content me-2 ms-2">
-              <a href="#" class="chart">
-                <i class="bi bi-cart"></i>
-              </a>
-            </div>
-            <a class="btn btn-nav1 align-self-center" href="#" role="button">Masuk</a>
-            <a class="btn btn-nav2 align-self-center" href="#" role="button">Daftar</a>
+          <div class="input-group form-search">
+            <span class="input-group-text ps-4" id="basic-addon1">
+              <i class="fa fa-search"></i>
+            </span>
+            <input type="text" class="form-control shadow-none pe-4" placeholder="kursus network security coding" aria-label="Username" aria-describedby="basic-addon1">
           </div>
+          <div class="navbar-nav">
+            <a class="nav-link text-nowrap" href="#">Mengajar di Delta Training</a>
+          </div>
+          <a class="highlight-menu-chart text-decoration-none" href="#" role="button">
+            <i class="bi bi-cart"></i>
+          </a>
+          <button type="button" class="btn btn-masuk mb-3 mb-xl-0">Masuk</button>
+          <button type="button" class="btn btn-daftar ms-xl-3 mb-3 mb-xl-0">Daftar</button>
         </div>
       </div>
     </nav>
     
     <div class="container">
        <!-- M A I N -->
-       <div class="main">
+       <div class="main pt-4 pt-lg-0">
          <!-- H E R O -->
          <section class="hero" id="hero">
            <div class="row">
